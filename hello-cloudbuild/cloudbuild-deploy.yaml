@@ -23,7 +23,7 @@ steps:
 
   - id: deploy
     dir: hello-cloudbuild
-    name: gcr.io/quantum-studio-290601/helm-cloudbuilder
+    name: gcr.io/quantum-studio-290601/helm
     env:
       - KUBECONFIG=/workspace/.kube/config
     args:
